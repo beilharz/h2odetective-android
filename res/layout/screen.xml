@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:scrollbars="vertical" >
+
+
+    <Button
+        android:id="@+id/btngetdata"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/get_data_btn" 
+        android:onClick="getData"/>
+
+    <Button
+        android:id="@+id/btnheavy"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/get_user_btn"
+        android:onClick="getHeavyUser" />
+
+    <Button
+        android:id="@+id/btnshowdata"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/show_data_btn"
+        android:onClick="showData" />
+    
+</LinearLayout>

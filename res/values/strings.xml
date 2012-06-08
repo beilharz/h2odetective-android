@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   
+    <string name="app_name">H20 Detective</string>
+    <string name="get_data_btn">Get Data</string>
+    <string name="get_user_btn">Get Heavy User</string>
+    <string name="show_data_btn">Show Data</string>
+     
+
+</resources>
